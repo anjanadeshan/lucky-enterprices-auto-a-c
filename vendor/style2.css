@@ -1,0 +1,264 @@
+/*profile*/
+#title .col-sm-12 {
+    text-align: center;
+    color:black;
+    font-family: monospace;
+    font-size: 3vw;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px white;
+}
+
+.profileinfo{
+    margin-top: 100px;
+    font-size: 40px;
+}
+.profileinfo label{
+     text-shadow: 1.5px 0px black;
+    width: 35%;
+    color:blue;
+    float: left;
+    font-family: monospace;
+}
+.profileinfo input{
+    border-radius: 20px;
+    font-size: 35px;
+    border-style: none;
+    
+    
+}
+.profileinfo button{
+ background-color: black;
+ color: green;
+ border-radius: 20px;
+    
+    
+}
+
+/*nav*/
+
+.row{
+    /* height: 80px; */
+    background-color:#112c38;
+
+
+}
+
+
+.navbar {
+
+    background-color:#071a3a;
+
+
+}
+.navbar li{
+
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+
+}
+.navbar-brand{
+
+font-size: 25px;
+    text-shadow:
+        0 0  5px #fff, 
+        0 0  5px #fff, 
+        0 0  10px #fff, 
+        0 0  15px #528cea, 
+        0 0  30px #528cea, 
+        0 0  35px #528cea, 
+        0 0  50px #528cea, 
+        0 0  80px #528cea ; 
+}
+
+.pp{
+    color:green;
+}
+
+
+
+
+
+
+/* back */
+body,.back {
+	/*width: 100wh;*/
+	height: auto; 
+	color: #fff;
+	background: linear-gradient(-45deg, #071e42 , #063989, #4d4a56, #28031b);
+	background-size: 300% 300%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+
+
+
+
+#list  {
+    text-align: center;
+    
+}
+#masterlist {
+align:center;
+  font-size: 35px;
+
+}
+.now {
+
+  font-size: 20px;
+
+}
+
+#masterlist tr th{
+    
+    
+    color:yellow;
+    background-color: black;
+    border: solid 2px white;
+    padding: 5px;
+    text-align: center;
+   
+}
+#list h1{
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-size: 3vw;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px white;
+}
+#masterlist td {
+    
+  padding: 5px 5px 5px 10px;
+   
+}
+
+#list h2    {
+background-color: #b92c28;
+border:  2px white;
+float: right;
+color:#ebccd1;
+padding: 5px;
+font-family: cursive;
+border-radius: 20px;
+margin-top: -60px;
+}
+
+#list h2 img{
+height: 40px;
+float: right;
+width: 40px;
+}
+#list h2 a{
+    color: #fff;
+}
+#list h2 a:visited{
+   color: #080808;
+   text-decoration: none;
+}
+#list h2:hover  {
+   background-color: #28ef32;
+ 
+
+text-decoration: none;
+
+#list h2 a{
+color: #080808;
+}
+
+
+    
+
+}
+#list h2 a:hover{
+color: #080808;
+text-decoration: none;
+}
+
+
+/*addduser*/
+
+#adu .col-sm-12{
+    
+    height: 75px;
+    border: 5px red;
+    background-color: #31b0d5;
+    color:#4d4a56;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    
+    text-shadow: 1.5px 0px white;
+    
+}
+.addform p input,select{
+   
+   color: black;
+   border-radius: 10px;
+   margin-top: 15px;
+   /*background: transparent;*/
+   width: 300px;
+    
+}
+.addform p label{
+
+    width: 300px;
+    
+   
+    
+}
+.addform p {
+ line-height: 50px;
+    
+}
+.divform{
+    height: auto;
+    background-color: #154da0;
+    font-size:30px;
+}
+.divform button{
+    background-color: blue;
+align-items: center;
+margin-left: 10px;
+}
